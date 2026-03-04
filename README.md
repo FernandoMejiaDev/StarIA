@@ -70,3 +70,5 @@ Si deseas ver **StarIA** en funcionamiento, puedes:
   
 Si clonas el repositroio de **StarIA** estára listo para funcionar; solo falta agregar la API key. 
 Este proyecto fue creado como parte de una prueba técnica con fines educativos y de aprendizaje.
+
+---
