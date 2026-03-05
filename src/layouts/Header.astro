@@ -1,17 +1,14 @@
 ---
 import DarkMode from "../components/ui/DarkMode";
-import DropDown from "../components/ui/DropDown";
 ---
 
     <div class="">
-      <div class="flex flex-row items-center justify-between w-full h-20 gap-4 p-4 bg-slate-100 dark:text-slate-100 dark:bg-zinc-950 align-center">
+      <div class="flex flex-row items-center justify-between w-full m-auto max-w-[80rem] h-20 gap-4 px-4 py-6 bg-slate-100 dark:text-slate-100 dark:bg-zinc-950 align-center">
         <div class="">
-          <h1 class="text-xl font-bold md:text-3xl">StarIA</h1>
+          <h1 class="text-3xl font-bold md:text-4xl">StarIA</h1>
         </div>
 
         <div class="flex flex-row gap-4">
-          <DropDown client:load/>
-
           <DarkMode client:load/>
         </div>
       </div>

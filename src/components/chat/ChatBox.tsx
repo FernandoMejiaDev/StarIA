@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import type { FormEvent } from "react";
-import Icons from "../ui/Icons";
 import Arrow from "../../assets/svg/Arrow";
 
 interface ChatBoxProps {
@@ -18,32 +17,28 @@ const ChatBox: React.FC<ChatBoxProps> = ({ onSend }) => {
   };
 
   return (
-    <form
-      onSubmit={handleSubmit}
-      className="max-w-[80rem] text-zinc-950 bg-slate-100 dark:text-slate-100 rounded-2xl grid grid-cols-6 gap-4 w-full px-4 py-6 mb-4 border dark:bg-zinc-950 border-emerald-800 focus:outline-none focus:ring focus:ring-emerald-800"
-    >
-      <textarea
-        value={Message}
-        onChange={(e) => setMessage(e.target.value)}
-        className="flex-1 col-span-5 p-2 border resize-none h-18 bg-slate-100 dark:bg-zinc-950"
-        placeholder="Pregunta lo que quieras"
-      ></textarea>
-
-      <button
-        type="submit"
-        className="flex flex-row items-center justify-center w-full h-full p-2 rounded-2xl text-slate-100 bg-emerald-800"
+    <div className="relative p-1 rounded-2xl bg-gradient-to-l from-slate-900 via-indigo-900 to-cyan-800">
+      <form
+        onSubmit={handleSubmit}
+        className="max-w-[80rem] text-zinc-950 bg-slate-100 dark:text-slate-100 rounded-xl grid grid-cols-4 gap-2 w-full p-2 dark:bg-zinc-950"
       >
-        <Arrow width="28" height="28" />
-      </button>
+        <div className="relative flex-1 col-span-4 p-1 rounded-2xl bg-gradient-to-l from-slate-900 via-indigo-900 to-cyan-800">
+          <textarea
+            value={Message}
+            onChange={(e) => setMessage(e.target.value)}
+            className="block w-full p-2 resize-none min-h-16 max-h-32 adjust-textarea rounded-xl bg-slate-100 dark:bg-zinc-950"
+            placeholder="Pregunta lo que quieras"
+          ></textarea>
+        </div>
 
-      {/*
-     Static function icons, they do nothing, discard them to avoid confusion
-     
-      <div className="w-full h-auto col-span-6 text-slate-100">
-        <Icons />
-      </div>
-      */}
-    </form>
+        <button
+          type="submit"
+          className="flex justify-center w-full h-full col-start-4 row-start-2 p-2 rounded-2xl text-slate-100 bg-gradient-to-l from-slate-900 via-indigo-900 to-cyan-800"
+        >
+          <Arrow width="28" height="28" />
+        </button>
+      </form>
+    </div>
   );
 };
 

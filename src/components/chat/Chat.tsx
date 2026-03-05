@@ -31,11 +31,12 @@ const Chat: React.FC = () => {
             <div
               className={`p-3  max-w-[70%] ${
                 msg.autor === 'user'
-                  ? 'bg-emerald-100 rounded-xl dark:bg-emerald-700 text-zinc-950 dark:text-slate-100'
-                  : 'text-zinc-950 dark:text-slate-100 border-b-2 border-slate-200 dark:border-zinc-900'
+                  ? 'bg-gradient-to-l from-slate-900 via-indigo-900 to-cyan-800 text-slate-100 rounded-xl'
+                  : 'text-zinc-950 dark:text-slate-100 border-b-2 border-slate-400 dark:border-zinc-800'
               }`}
             >
               {msg.texto}
+    
             </div>
           </div>
         ))}

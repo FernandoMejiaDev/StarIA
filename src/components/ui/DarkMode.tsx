@@ -26,7 +26,7 @@ const DarkMode = () => {
   return (
     <button
       onClick={() => setDarkMode(!darkMode)}
-      className="w-12 h-12 cursor-pointer text-zinc-950 dark:text-slate-100"
+      className="w-12 h-12 cursor-pointer md:w-16 md:h-16 text-zinc-950 dark:text-slate-100"
     >
       <DarkModeIcon />
     </button>
