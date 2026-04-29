@@ -17,7 +17,7 @@ Una plataforma visual y funcional para configurar agentes de inteligencia artifi
 ![astro](https://img.shields.io/static/v1?message=astro&logo=astro&label=&color=df3770&logoColor=white&labelColor=&style=for-the-badge)
 ![typescript](https://img.shields.io/static/v1?message=typescript&logo=typescript&label=&color=2f74c0&logoColor=white&labelColor=&style=for-the-badge)
 ![React](https://img.shields.io/static/v1?message=React&logo=React&label=&color=1082a7&logoColor=white&labelColor=&style=for-the-badge)
-![TailwindCSS](https://img.shields.io/static/v1?message=TailwindCSS&logo=TailwindCSS&label=&color=3ebff8&logoColor=white&labelColor=&style=for-the-badge)
+![TailwindCSS](https://img.shields.io/static/v1?message=tailwind_CSS&logo=TailwindCSS&label=&color=3ebff8&logoColor=white&labelColor=&style=for-the-badge)
 ![pnpm](https://img.shields.io/static/v1?message=pnpm&logo=pnpm&label=&color=F69220&logoColor=white&labelColor=&style=for-the-badge)
 ![groq](https://img.shields.io/static/v1?message=Modelo-de-IA-con-GROQ&label=&color=f5553c&logoColor=white&labelColor=&style=for-the-badge)
 ![openai](https://img.shields.io/static/v1?message=modelo-openai-gpt-oss-20b&logo=openai&label=&color=0ea47e&logoColor=white&labelColor=&style=for-the-badge)
