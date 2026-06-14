@@ -10,7 +10,7 @@ Una plataforma visual y funcional para configurar agentes de inteligencia artifi
 
 **Ideal para equipos, negocios o profesionales que buscan integrar un agente conversacional en sus plataformas sin complicarse con desarrollos complejos.**
 
-## 🛠 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 <div align="left">
 
@@ -36,7 +36,7 @@ Decidí construir **StarIA** con el siguiente stack:
 - Tailwind CSS para el diseño responsive y estilizado profesional.
 - API de **GROQ** con el modelo de OpenAI **openai/gpt-oss-20b** que es un modelo open-source orientado a conversaciones de texto, ideal para agentes conversacionales ligeros y rápidos.
 
-## 🤖 Sobre el modelo de IA
+## Sobre el modelo de IA
 
 **StarIA** utiliza el modelo **openai/gpt-oss-20b** a través de **[Groq](https://groq.com/)**.
 
