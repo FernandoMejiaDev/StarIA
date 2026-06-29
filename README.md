@@ -38,7 +38,7 @@ Decidí construir **StarIA** con el siguiente stack:
 
 ## Sobre el modelo de IA
 
-**StarIA** utiliza el modelo **openai/gpt-oss-20b** a través de **[Groq](https://groq.com/)**.
+**StarIA** utiliza el modelo **openai/gpt-oss-20b** a través de *[Groq](https://groq.com/)*.
 
 ### Características principales:
 
@@ -61,7 +61,7 @@ Durante el desarrollo, busqué no solo resolver el desafío técnico, sino tambi
 Si deseas ver **StarIA** en funcionamiento, puedes:
 
 - Clonar el repositorio.
-- Crear tu propia clave en **[Groq](https://groq.com/)**.
+- Crear tu propia clave en *[Groq](https://groq.com/)*.
 - Integrar la clave como variable de entorno en el proyecto.
 
   ```bash
